@@ -51,3 +51,12 @@ source venv/bin/activate
 # 3. Установить зависимости
 pip install -r requirements.txt
 
+
+## 🗄️ **Применение миграций**
+
+Перед запуском сервера выполните миграции базы данных:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+
